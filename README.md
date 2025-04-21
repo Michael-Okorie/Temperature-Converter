@@ -17,6 +17,12 @@ A simple and responsive temperature converter built using vanilla JavaScript. Th
 
 ---
 
+## Screenshot
+
+![Temperature Converter](./screenshot.png)
+
+--- 
+
 ## Overview
 
 This beginner-friendly project was created to practice:
