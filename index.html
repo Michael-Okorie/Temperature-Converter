@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Temperature Converter: </h1>
+            <input type="number" id="myInput" value="0"><br><br>
+
+            <input type="radio" name="unit" id="toFahrenheit">
+            <label for="toFahrenheit" name="unit">Celsius → Fahrenheit</label><br>
+
+            <input type="radio" name="unit" id="toCelsius">
+            <label for="toCelsius" name="unit">Fahrenheit → Celsius</label><br>
+
+            <input type="radio" name="unit" id="toKelvin">
+            <label for="toKelvin" name="unit">Celsius → Kelvin</label><br><br>
+
+            <button type="submit" id="submitBtn">Convert</button><br><br>
+
+            <p id="myP"></p>
+        </div>
+    </div>
+</body>
+<footer>
+    <span>Coded by <a href="https://github.com/Michael-Okorie" target="_blank">Michael Okorie</a></span>
+</footer>
+
+
+</html>

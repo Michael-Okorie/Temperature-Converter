@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background-color: honeydew;
+    position: relative;
+    padding-bottom: 100px;
+    margin: 10px;
+}  
+
+.card{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    background-color: white;
+    margin: 10px auto 0px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  3px 3px 8px grey;
+    text-align: center;
+   
+}
+
+
+h1{
+    margin-bottom: 15px;
+    color: hsl(192, 100%, 50%);
+}
+
+label{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#myInput{
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: weight;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: hsl(0, 100%, 65%);
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover{
+    background-color: hsl(0, 100%, 50%);
+    transform: scale(1.05);
+}
+
+p{
+    font-size: 1.2em;
+    font-weight: bold;  
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+span{
+    color: grey;
+}
+
+footer a{
+    text-decoration: none;
+    color: hsl(192, 100%, 50%);
+    text-shadow: 1px 1px 10px hsl(192, 100%, 45%);
+    transition: all 0.5s ease-in-out;
+}
+
+footer a:hover{
+    text-shadow: -2px -2px 8px hsl(192, 100%, 40%);
+    filter: brightness(120%);
+    transform: scale(1.05);
+}
