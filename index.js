@@ -19,13 +19,13 @@ submitBtn.onclick = function(){
 
     if(toFahrenheit.checked){
         result = (temp * 9/5) + 32;
-        myP.textContent = "Result: " + result.toFixed(1) + " °F";
+        myP.textContent = "Result: " + result.toFixed(2) + " °F";
     } else if(toCelsius.checked){
         result = (temp - 32) * 5/9;
-        myP.textContent = "Result: " + result.toFixed(1) + " °C";
+        myP.textContent = "Result: " + result.toFixed(2) + " °C";
     } else if (toKelvin.checked){
         result = temp + 273.15;
-        myP.textContent = "Result: " + result.toFixed(1) + " K"
+        myP.textContent = "Result: " + result.toFixed(2) + " K"
     } else {
         myP.textContent = "Please select a unit";
     }
