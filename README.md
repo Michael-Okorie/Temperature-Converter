@@ -54,7 +54,7 @@ This beginner-friendly project was created to practice:
 
 ## Live Demo
 
-> [View it live](https://yourusername.github.io/temperature-converter/)
+> [View it live](https://michael-okorie.github.io/Temperature-Converter/)
 > [Github repo](https://github.com/Michael-Okorie/Temperature-Converter.git)  
 
 ---
